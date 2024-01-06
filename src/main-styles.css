@@ -92,3 +92,44 @@ section#introduction .image-of-annabelle{
 
 }
 
+
+
+
+
+
+
+section#bio {
+    padding:70px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:60px;
+    background-color: black;
+    margin-bottom:170px;
+}
+
+
+
+section#bio .image{
+    border-radius:50px;
+    width:280px;
+    height:340px;
+
+    background-image: url('./images/gwc.png');
+     background-position: right; 
+     background-repeat: no-repeat;
+     background-size: cover; 
+}
+
+section#bio .greeting{
+    display:block;
+    font-size:3.5rem;
+    font-weight: 600;
+}
+
+section#bio .bio-text{
+    font-size:1.8rem;
+    flex:2 1 450px;
+}
+
