@@ -26,7 +26,7 @@ console.log('createword slider runs')
             index++
         }
          slideIn(wordArray[index])
-    }, 1500);
+    }, 2500);
 }
 
 // make element slide in
