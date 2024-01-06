@@ -51,7 +51,7 @@ section#introduction .static-text{
 }
 
 section#introduction  .scroll-text-container{
-   height:100px;
+   min-height:5.5rem;
    max-width: 100%;
    font-size:5.5rem;
    font-weight:900;
@@ -270,7 +270,7 @@ section#contact .icons{
     }
     section#portfolio .portfolio-card{
         width:250px;
-        height:400px;
+        height:410px;
     }
     
   }
