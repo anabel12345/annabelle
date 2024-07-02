@@ -140,13 +140,14 @@ section#portfolio{
     margin-bottom:140px;
     display:flex;
     flex-wrap:wrap;
-    gap:16px;
-    justify-content: space-evenly;
+    gap:100px;
+    padding:0px 40px;
+    justify-content: center;
 }
 section#portfolio .portfolio-card{
     width:300px;
     border-radius: 18px;
-    min-height:350px;
+    min-height:400px;
     box-shadow: rgba(50, 50, 93, 1) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.9) 0px 18px 36px -18px inset;
     background-color: rgb(59, 135, 123);
     padding:15px 25px;
@@ -164,7 +165,7 @@ section#portfolio .portfolio-card .preview-image{
 }
 
 section#portfolio .portfolio-card .description{
-    font-size:20px;
+    font-size:18px;
 }
 
 section#portfolio .portfolio-card .description .title{
@@ -175,18 +176,33 @@ section#portfolio .portfolio-card .description .title{
 
 
 
-section#portfolio .wit-verse .preview-image{
-    background-image: url('./images/WIT-preview.png');
-    background-position: center; /* Center the image */
+section#portfolio .preview-image{
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
    margin-bottom:20px;
    border-radius:20px 20px 5px 5px;
    box-shadow: rgb(19, 19, 19) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.9) 0px 18px 36px -18px inset;
     
-    
 }
-section#portfolio .wit-verse .preview-image-overlay {
+
+
+section#portfolio .fpp .preview-image{
+    background-image: url('./images/fpp.jpg');
+    background-position: left; 
+}
+
+section#portfolio .tower-defense .preview-image{
+    background-image: url('./images/tower_defense.jpg');
+    background-position: center; 
+}
+
+section#portfolio .lab .preview-image{
+    background-image: url('./images/lab.jpg');
+    background-position: center; 
+}
+
+
+section#portfolio .preview-image-overlay {
     content: "";
     position: absolute;
     top: 0;
